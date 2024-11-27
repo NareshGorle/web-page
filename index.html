@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In page </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="from-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()" >Log In </button>
+                    <button type="button" class="toggle-btn" onclick="registor()">Regstraion</button>
+                </div>
+                <div class="social-icons">
+                    <img src="google.png">
+                    <img src="facebook.png">
+                    <img src="twitter.png">
+                 </div>  
+                 <form class="form" id="login">
+                        <input type="text" class="input-field" placeholder="User ID" required>
+                        <input type="text" class="input-field" placeholder="Password" required>
+                         <input type="checkbox" class="check-box" ><span class="span">require password</span>
+                         <button type="submit" class="sub-btn"> Log in</button>
+
+                 </form>
+                 <form class="form" id="registor">
+                    <input type="text" class="input-field" placeholder="User ID" required>
+                    <input type="text" class="input-field" placeholder="Email ID" required>
+                     <input type="checkbox" class="check-box" ><span class="span">I agree to the terms conditions</span>
+                     <button type="submit" class="sub-btn">Registor</button>
+
+             </form>
+                </div>
+             
+        
+        </div>
+       
+        <script src="app.js" defer></script>
+    </body>
+    
+</html>

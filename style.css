@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: darkblue; 
+    position: absolute;
+    
+}
+ .from-box{
+    width: 380px;
+    height: 450px;
+    position: relative ;
+    margin: 6% auto ;
+    padding: 6px;
+    
+    
+} 
+.button-box{
+    width: 230px;
+    margin: 30px  auto;
+    position: relative ;
+    background-color: #fff;
+    border-radius: 30px;   
+}  
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background: linear-gradient(to right,#250d85,#3e07c9);
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+.social-icons{
+    margin: 30px auto ;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.form{
+    top:180px;
+    position: absolute;
+    width:280px;
+    transition: 0.5s;
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+
+}
+.sub-btn{
+    width:85%;
+    padding:10px 30px ;
+    margin:auto;
+    display: block;
+    cursor: pointer;
+    background: #250f94;
+    outline: none;
+    border-radius: 30px;
+    color:#fff;
+}
+.check-box{
+    margin:30px 10px 30px 0;
+}
+.span{
+    color: #777;
+    position: absolute;  
+    font-size: 15px;
+    bottom:68px;
+}
+#login{
+    left:50px;
+}
+#registor{
+    left:450px;
+}
+
+
